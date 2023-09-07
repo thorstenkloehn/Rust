@@ -55,3 +55,56 @@ fn main() {  // Programm startet hier
 } // Programm endet hier
 ```
 
+## formatiert text erstellen
+```rust
+    let a="Hallo"; // Variable a wird erstellt und mit dem Wert Hallo belegt
+    let b=format!("{} Welt!",a); // Variable b wird erstellt und mit dem Wert Hallo Welt! belegt
+    println!("{}",b); // Ausgabe von Text auf der  Konsole ausgeben Hallo Welt!
+```
+## Rust Text einlesen in Rust
+```rust
+fn main() {  // Programm startet hier
+    // Konsole eingabe einlesen
+    println!("Wie heißt du?"); // Text ausgeben
+    let mut input = String::new(); // Leere Zeichenkette mit Namen input erstellen und veränderbar machen
+
+    std::io::stdin().read_line(&mut input).unwrap(); // Zeichenkette von der Konsole einlesen und in input speichern
+    // Eingabe ausgeben
+    println!("Hallo {}!", input); // Eingabe ausgeben
+}
+```
+
+## Was ist Zeichenkette in Rust
+Eine Zeichenkette ist eine Folge von Zeichen. In Rust wird eine Zeichenkette mit dem Datentyp `String` dargestellt. Eine Zeichenkette kann mit folgendem Code erstellt werden:
+```rust
+let a = String::from("Hallo Welt!");
+```
+
+## Zeichenkette in Rust ausgeben
+
+Eine Zeichenkette kann mit dem Befehl `println!` ausgegeben werden:
+```rust
+let a = String::from("Hallo Welt!");
+println!("{}", a);
+```
+
+## Zeichenkette in Rust einlesen
+Um eine Zeichenkette einzulesen, muss eine Variable vom Typ `String` erstellt werden. Diese kann dann mit dem Befehl `read_line` eingelesen werden:
+```rust
+let mut a = String::new();
+std::io::stdin().read_line(&mut a).unwrap();
+```
+## Was ist unwrapped in Rust
+Unwrap ist eine Funktion, die einen Wert aus einem `Result`-Objekt extrahiert. Wenn das `Result`-Objekt den Wert `Ok` enthält, wird der Wert zurückgegeben. Wenn das `Result`-Objekt den Wert `Err` enthält, wird das Programm mit einer Fehlermeldung beendet.
+
+## Was ist ein Result-Objekt in Rust
+Ein `Result`-Objekt ist ein Objekt, das entweder den Wert `Ok` oder den Wert `Err` enthält. Wenn das `Result`-Objekt den Wert `Ok` enthält, ist alles in Ordnung. Wenn das `Result`-Objekt den Wert `Err` enthält, ist etwas schief gelaufen.
+
+Was ist ein String::from
+`String::from` ist eine Funktion, die eine Zeichenkette erstellt. Sie kann mit folgendem Code aufgerufen werden:
+```rust
+let a = String::from("Hallo Welt!");
+```
+
+
+
