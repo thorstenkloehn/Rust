@@ -45,3 +45,13 @@ Dieser Befehl erzeugt eine ausführbare Datei mit dem Namen `main`. Diese kann d
 ./main
 ```
 Dieser Befehl sollte `Hello World!` ausgeben.
+
+
+
+## Übungen
+```rust
+fn main() {  // Programm startet hier
+    println!("Hello, world!"); // Ausgabe von Text auf der  Konsole ausgeben Hello, world!
+} // Programm endet hier
+```
+
