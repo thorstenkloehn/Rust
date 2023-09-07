@@ -100,7 +100,7 @@ Unwrap ist eine Funktion, die einen Wert aus einem `Result`-Objekt extrahiert. W
 ## Was ist ein Result-Objekt in Rust
 Ein `Result`-Objekt ist ein Objekt, das entweder den Wert `Ok` oder den Wert `Err` enthält. Wenn das `Result`-Objekt den Wert `Ok` enthält, ist alles in Ordnung. Wenn das `Result`-Objekt den Wert `Err` enthält, ist etwas schief gelaufen.
 
-Was ist ein String::from
+## Was ist ein String::from
 `String::from` ist eine Funktion, die eine Zeichenkette erstellt. Sie kann mit folgendem Code aufgerufen werden:
 ```rust
 let a = String::from("Hallo Welt!");
