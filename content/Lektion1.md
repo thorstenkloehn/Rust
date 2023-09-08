@@ -1,33 +1,15 @@
 ---
-title: "Installieren"
-date: 2023-09-07T21:37:24+02:00
+title: "Lektion 1"
+date: 2023-09-08T08:28:53+02:00
 draft: false
 type: "page"
 menu: 
   main:
-    name: "Installieren"
-    weight: 1
+    name: "Lektion 1"
+    weight: 2
     
 ---
-
-# Rust Programmiersprache
-Rust ist eine moderne Programmiersprache, die sich durch ihre Sicherheit und Geschwindigkeit auszeichnet. Sie ist eine gute Alternative zu C und C++ und wird von Mozilla entwickelt. Rust ist eine Multiparadigmen-Sprache, die funktionale, imperative und objektorientierte Programmierung unterstützt. Sie ist eine statisch typisierte Sprache, die aber auch Typinferenz unterstützt. Rust ist eine kompilierte Sprache, die sich durch ihre Geschwindigkeit auszeichnet. 
-
-## Installation
-Rust kann über den Paketmanager installiert werden. Auf Ubuntu und Debian kann Rust mit folgendem Befehl installiert werden:
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-Nach der Installation muss die Rust-Toolchain aktiviert werden. Dazu muss folgender Befehl ausgeführt werden:
-```bash
-source $HOME/.cargo/env
-```
-Um die Installation zu überprüfen, kann folgender Befehl ausgeführt werden:
-```bash
-rustc --version
-```
-Dieser sollte die Version von Rust ausgeben.
-
+# Variablen und Konsole in Rust
 ## Erstes Programm
 
 Um ein erstes Programm zu schreiben, muss eine Datei mit der Endung `.rs` erstellt werden. In dieser Datei kann dann der folgende Code geschrieben werden:
@@ -156,9 +138,3 @@ let a: char ='a'; // Zeichen,variable a wird erstellt und mit dem Wert a belegt
 ```rust
 let a: String ="Hallo Welt!"; // Zeichenkette,variable a wird erstellt und mit dem Wert Hallo Welt! belegt
 ```
-
-
-
-
-
-
